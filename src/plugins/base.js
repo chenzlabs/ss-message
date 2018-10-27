@@ -128,7 +128,7 @@ const fixup = function fixup(cb) {
 
 const addQuestionTypes = function addQuestionTypes(cb) {
   // Classify Question
-  const questionWords = ['who', 'whose', 'whom', 'what', 'where', 'when', 'why', 'which', 'name', 'did', 'do', 'does', 'have', 'had', 'has'];
+  const questionWords = ['who', 'whose', 'whom', 'what', 'where', 'when', 'why', 'which', 'name', 'did', 'do', 'does', 'have', 'had', 'has', 'how'];
   let isQuestion = false;
 
   if (this.message.raw.slice(-1) === '?') isQuestion = true;
